@@ -3,7 +3,7 @@
 AFRAME.registerComponent('start-tracking', {
     init: function () {
         const container = document.getElementById('container')
-        container.style.backgroundImage = "url('https://techcoreassets.blob.core.windows.net/images/stabilization.gif')"
+        container.style.backgroundImage = "url('assets/stabilization.gif')"
 
         setTimeout(() => {
             const uss = document.createElement('a-entity')
